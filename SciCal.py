@@ -398,7 +398,7 @@ btnasinh = Button(calc, text="asinh",width=6,
 
 lblDisplay = Label(calc, text = "Scientific Calculator",
 				font=('Helvetica',30,'bold'),
-				bg='red',fg='white',justify=CENTER)
+				bg='red',fg='black',justify=CENTER)
 
 lblDisplay.grid(row=0, column= 4,columnspan=4)
 
