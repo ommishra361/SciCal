@@ -274,7 +274,7 @@ btnEquals = Button(calc, text="=",width=6,
 				).grid(row=5, column= 3, pady = 1)
 # ROW 1 :
 btnPi = Button(calc, text="pi",width=6,
-			height=2,bg='green',fg='white',
+			height=2,bg='gray',fg='white',
 			font=('Helvetica',20,'bold'),
 			bd=4,command=added_value.pi
 			).grid(row=1, column= 4, pady = 1)
