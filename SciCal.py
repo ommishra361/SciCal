@@ -280,19 +280,19 @@ btnPi = Button(calc, text="pi",width=6,
 			).grid(row=1, column= 4, pady = 1)
 
 btnCos = Button(calc, text="Cos",width=6,
-				height=2,bg='green',fg='white',
+				height=2,bg='gray',fg='white',
 				font=('Helvetica',20,'bold'),
 				bd=4,command=added_value.cos
 			).grid(row=1, column= 5, pady = 1)
 
 btntan = Button(calc, text="tan",width=6,
-				height=2,bg='green',fg='white',
+				height=2,bg='gray',fg='white',
 				font=('Helvetica',20,'bold'),
 				bd=4,command=added_value.tan
 			).grid(row=1, column= 6, pady = 1)
 
 btnsin = Button(calc, text="sin",width=6,
-				height=2,bg='green',fg='white',
+				height=2,bg='gray',fg='white',
 				font=('Helvetica',20,'bold'),
 				bd=4,command=added_value.sin
 			).grid(row=1, column= 7, pady = 1)
