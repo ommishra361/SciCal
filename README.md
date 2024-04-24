@@ -1,1 +1,2 @@
 # SciCal
+Scientific Calculator
